@@ -42,8 +42,8 @@ class MathQuestionServiceTest {
 
     @Test
     void getAllTest() {
-//        assertThatExceptionOfType(NotAllowedException.class)
-//                .isThrownBy(() -> out.getAll();
+        assertThatExceptionOfType(NotAllowedException.class)
+                .isThrownBy(() -> out.getAll());
 //        Не понял, как сделать тест
     }
 
