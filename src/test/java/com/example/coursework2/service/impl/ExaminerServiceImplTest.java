@@ -19,8 +19,6 @@ public class ExaminerServiceImplTest {
     @Mock
     private JavaQuestionService javaQuestionService;
 
-    @Mock
-    private MathQuestionService mathQuestionService;
 
     @InjectMocks
     private ExaminerServiceImpl examinerService;
